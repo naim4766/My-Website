@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+body{
+
+    background: #98B1D9;
+}
+.container {
+    width: 1140px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.div1 {
+    background: #164D9D;
+    width: 400px;
+    overflow: hidden;
+    color: white;
+    float: left;
+    height: 500px;
+}
+
+.div1 span {
+    margin-left: 40px;
+    margin-top: 25px;
+    display: block;
+}
+.boxWrrper {
+    width: 1140px;
+}
+
+.div2 {
+    width: 590px;
+    float: left;
+    height: 500px;
+    background: white;
+}
+
+.div2 img {
+    width: 100%;
+    height: 350px;
+}
+
+
+
+.btn p {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 16px;
+    word-spacing: 2px;
+}
+
+.btn button {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #313C4E;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.btn button:hover{
+
+    background: crimson;
+    color: white;
+    transition: 0.5s;
+}
+.div3 {
+    width: 150px;
+    height: 500px;
+    display: inline;
+    background-color: #2A3344;
+    color: white;
+    float: right;
+}
+.div3 a {
+    color: white;
+    transform: rotate(90deg);
+    display: block;
+    margin: 64px 94px 38px 83px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.div3 a:hover {
+    color: #E81123;
+    transition: 0.5s;
+}
+
+.contant {
+    position: absolute;
+    left: 145px;
+    top: 200px;
+    height: 100%;
+}
+
+.contant h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3E86FC;
+    margin-left: 8px;
+    margin-bottom: -3px;
+}
+
+.contant h1 {
+    color: #d3d3d3;
+    text-transform: capitalize;
+    font-size: 94px;
+    font-weight: 600;
+}
+
+.contant p {
+    color: white;
+    width: 190px;
+    font-size: 20px;
+}
+
+.contant button {
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    outline: none;
+    background: #124999;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.socialIcone {
+    color: white;
+    margin-top: 70px;
+}
+
+.socialIcone i {
+    margin-right: 15px;
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 10px;
+}
+.socialIcone i:hover{
+
+    background: tomato;
+    color:white;
+    transition: 0.5s;
+}
+.contant button:hover {
+
+    background: #FF6347;
+
+}
